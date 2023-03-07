@@ -334,30 +334,9 @@ live_loop:low_notes do
   sleep 0.75
 end
 
-live_loop:background_notes do
-  play 33, amp: 3
-  sleep 1
-  play 40, amp: 3
-  sleep 1
-  play 34, amp: 3
-  sleep 1
-  play 41, amp: 3
-  sleep 0.5
-  play 36, amp: 3
-  sleep 0.5
-  play 32, amp: 3
-  sleep 1
-  play 38, amp: 3
-  sleep 1
-  play 36, amp: 3
-  sleep 1
-  play 33, amp: 3
-  sleep 0.5
-  play 36, amp: 3
-  sleep 0.5
-end
+sleep 40
 
-live_loop:background_drum do
+live_loop:background_drum1 do
   sample :drum_bass_soft, amp: 2
   sleep 0.5
   sample :drum_cymbal_closed
@@ -374,10 +353,37 @@ live_loop:background_clap do
   sleep 1
 end
 
-live_loop:background_c do
-  sleep 1.8
+live_loop:background_cymbal do
+  sleep 1.85
   sample :drum_cymbal_closed, rate: 1.5
-  sleep 0.25
+  sleep 0.15
   sample :drum_cymbal_closed, rate: 1.5
-  sleep 2.05
+  sleep 0.3
+  sample :drum_cymbal_closed, rate: 1.5
+  sleep 1.7
+end
+
+sleep 8
+
+live_loop:background_notes do
+  play:A1, amp: 2
+  sleep 1
+  play:E2, amp: 2
+  sleep 1
+  play:Bb1, amp: 2
+  sleep 1
+  play:F2, amp: 2
+  sleep 0.5
+  play:C2, amp: 2
+  sleep 0.5
+  play:Ab1, amp: 2
+  sleep 1
+  play:D2, amp: 2
+  sleep 1
+  play:C2, amp: 2
+  sleep 1
+  play:A1, amp: 2
+  sleep 0.5
+  play:C2, amp: 2
+  sleep 0.5
 end
