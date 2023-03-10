@@ -1,6 +1,6 @@
 # Gypsy Woman
 
-beep = "C:\Users\Amari Rose-Aminifu\Downloads\video game beep-Sound effect.wav"
+beep = "C:/Users/Amari Rose-Aminifu/Downloads/video game beep-Sound effect.wav"
 
 notes = [:A1,:E2,:Bb1,:F2,:C2,:Ab1,:D2,:C2,:A1,:C2]
 
