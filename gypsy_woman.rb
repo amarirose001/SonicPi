@@ -4,10 +4,10 @@ beep = "C:/Users/Amari Rose-Aminifu/Downloads/video game beep-Sound effect.wav"
 
 notes = [:A1,:E2,:Bb1,:F2,:C2,:Ab1,:D2,:C2,:A1,:C2]
 
-define :clap do
-  sleep 1
+define :clap do |s|
+  sleep s
   sample :perc_impact2, amp: 0.3
-  sleep 1
+  sleep s
 end
 
 x = 0.3
@@ -417,7 +417,7 @@ live_loop:background_drum do
 end
 
 live_loop:background_clap do
-  clap
+  clap 1
 end
 
 live_loop:background_c do
